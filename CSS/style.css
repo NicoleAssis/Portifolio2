@@ -1,0 +1,91 @@
+body {
+    color: white;
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    background-color: black;
+    align-items: center;  /* Centraliza verticalmente */
+    justify-content: center;  
+    text-align: center; /* Centraliza horizontalmente */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+main.container{
+    display: flex;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    padding: 2rem; 
+}
+
+.Portifolio{
+    min-width: 500px;
+    min-height: 500px;
+}
+
+span{
+    color:#f3bac1 ;
+}
+
+/* Estilos opcionais para melhor aparência dos botões */
+button {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    background: rgb(77, 67, 228); 
+    border-radius: 50px;
+    min-width: 200px;
+    color: white;
+    border: none;
+    min-height: 40px;
+}
+#elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    min-height: 500px;
+}
+
+/* Seção do título - ocupa ~45% */
+#elements h1 {
+    flex: 0.45;  /* 45% do espaço */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;  /* alinha na base */
+}
+
+/* Seção do parágrafo - ocupa ~45% */
+#elements p {
+    flex: 0.45;  /* 45% do espaço */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  /* alinha no topo */
+}
+
+/* Container dos botões - ocupa ~10% e fica com os botões lado a lado */
+
+.button-style {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    min-width: 150px;
+    /* Adicione aqui os estilos que você já tem para os botões */
+    /* Por exemplo: */
+    background-color: #392bb4;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    
+    /* etc */
+}
+header{
+    font-size: 2rem;
+    font-weight:bold
+   
+}
+p{
+    font-size: 18px;
+}
