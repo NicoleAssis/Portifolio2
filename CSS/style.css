@@ -1,12 +1,12 @@
 body {
-    color: white;
+    color: white; 
     margin: 0;
     display: flex;
     min-height: 100vh;
     background-color: black;
-    align-items: center;  /* Centraliza verticalmente */
+    align-items: center; 
     justify-content: center;  
-    text-align: center; /* Centraliza horizontalmente */
+    text-align: center; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -29,17 +29,7 @@ span{
     color:#f3bac1 ;
 }
 
-/* Estilos opcionais para melhor aparência dos botões */
-button {
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    background: rgb(77, 67, 228); 
-    border-radius: 50px;
-    min-width: 200px;
-    color: white;
-    border: none;
-    min-height: 40px;
-}
+
 #elements {
     display: flex;
     flex-direction: column;
@@ -48,7 +38,6 @@ button {
     min-height: 500px;
 }
 
-/* Seção do título - ocupa ~45% */
 #elements h1 {
     flex: 0.45;  /* 45% do espaço */
     display: flex;
@@ -78,7 +67,7 @@ button {
    
    
 }
-header{
+h1{
     font-size: 2rem;
     font-weight:bold
    
